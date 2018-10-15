@@ -1,0 +1,33 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": false
+        }
+    },
+    "rules": {
+        "semi": 2,
+        "indent": "off",
+        "linebreak-style": ["error", "unix"],
+        "quotes": "off",
+        "semi": ["error", "always"],
+        "comma-dangle": ["error", {
+            "arrays": "never",
+            "objects": "ignore",
+            "imports": "never",
+            "exports": "ignore",
+            "functions": "ignore"
+        }],
+        "no-cond-assign": ["error", "always"],
+        "no-useless-rename": ["error", {
+            "ignoreDestructuring": false,
+            "ignoreImport": false,
+            "ignoreExport": false
+        }],
+        "no-duplicate-imports": "off",
+        "arrow-parens": ["error", "as-needed", {
+            "requireForBlockBody": true
+        }]
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Pericles",
+  "version": "0.0.0",
+  "description": "📱 Serverless text-to-vote application built with Node and Google Cloud Firestore.",
+  "main": "src/pericles.js",
+  "repository": "git@github.com:aslattery/Pericles.git",
+  "author": "Andrew Slattery <foss@awslattery.com> (https://awslattery.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "eslint": "^5.7.0"
+  },
+  "dependencies": {
+    "firebase-admin": "^6.0.0"
+  }
+}
