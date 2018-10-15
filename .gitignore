@@ -1,7 +1,7 @@
 # Created by https://www.gitignore.io/api/node,macos,windows
 
 ### Custom ###
-.lock
+*.lock
 package-lock.json
 
 ### macOS ###
