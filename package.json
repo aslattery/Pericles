@@ -1,0 +1,9 @@
+{
+  "name": "Pericles",
+  "version": "0.0.0",
+  "description": "📱 Serverless text-to-vote application built with Node and Google Cloud Firestore, with a Gatsby powered frontend.",
+  "main": "src/index.js",
+  "repository": "git@github.com:aslattery/Pericles.git",
+  "author": "Andrew Slattery <foss@awslattery.com> (https://awslattery.com/)",
+  "license": "MIT"
+}
